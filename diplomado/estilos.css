@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/* RESET.CSS - Sirve parareinicar todos los valores de los elementos HTML*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, #contenedor {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+h1 {
+	font-family: ' Sans Condensed abiertas ', sans-serif;
+	font-size: 11px;
+	line-height: 140%;
+	color: rgba(51,51,51,1);
+	padding-left: 500px;
+	padding-top: 15px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	height: 0px;
+	width: 0px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+	background-color: #fffdf0;
+	background-image: url(tria.png);
+	background-repeat: repeat-x;	
+
+}
+
+#contenedor {
+	overflow-x: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1275px;
+}
+
+
+header {
+	float: left;
+	width: 1275px;
+}
+#logo {
+	padding-left: 510px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 23px;
+}
+#titulo {
+	padding-top: 50px;
+	padding-left: 100px;
+}
+nav {
+	padding-left: 500px;
+	padding-bottom: 20px;
+	height: 70px;
+}
+#coliz {
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+#titu {
+	padding-left: 150px;
+	padding-top: 50px;
+}
+#colcen {
+	width: 520px;
+	height: 300px;
+	float: left;
+}
+
+
+
+#micv {
+	width: 80px;
+	height: 53px;
+	background-image: url(cv.png);
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 10px;
+}
+#separa {
+	height: 44px;
+	float: left;
+	background-repeat: repeat;
+	width: 1275px;
+	background-color: rgba(225,173,89,1);
+}
+#sobre {
+	height: 42px;
+	width: 200px;
+	padding-left: 500px;
+}
+
+#micv:hover {
+	float: right; width: 80px; height: 53px;
+	background-image: url(sobrecv.png);
+	background-repeat: no-repeat;
+}
+footer {
+	height: 36px;
+	background-repeat: repeat-x;
+	float: left;
+	background-color: rgba(246,196,107,1);
+	width: 1275px;
+	padding-bottom: 10px;
+}
+#boton, #boton2, #boton3 { float: left; width: 70px; height: 70px; }
+#contenedor aside ul {
+	text-align: right;
+}
+h2 {
+	text-transform: uppercase;
+	font-family: "Courier New", Courier, monospace;
+	background-color: rgb(237,189,103);
+	color: rgb(51,0,0);
+	text-align: right;
+	margin-top: 10px;
+}
+aside {
+	float: right;
+	padding-top: 0px;
+	width: 520px;
+	padding-right: 454px;
+}
+a {
+	color: rgb(0,0,0);
+	text-decoration: none;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+}
+aside li {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: rgb(0,0,0);
+	padding-top: 5px;
+}
+video {
+	padding-left: 80px;
+}
+
+#boton {
+	background-image: url(btn.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton:hover {
+	background-image: url(btnsobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#boton2 {
+	background-image: url(btn2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton2:hover {
+	background-image: url(btn2sobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#boton3 {
+	background-image: url(btn3.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton3:hover {
+	background-image: url(btn3sobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+p {
+	font-family: ' Sans Condensed abiertas ', sans-serif;
+	font-size: 12px;
+	color: rgba(51,51,51,1);
+	line-height: 140%;
+	text-align: justify;
+	padding-top: 80px;
+	float: right;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: rgba(153,153,153,1);
+	padding-bottom: 10px;
+}

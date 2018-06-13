@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* RESET.CSS - Sirve parareinicar todos los valores de los elementos HTML*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, #contenedor {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+	background-color: #fffdf0;
+	background-image: url(tria3.png);
+	background-repeat: repeat-x;
+}
+
+#contenedor {
+	background-position: 1275px;
+	overflow-x: hidden;
+	width: 1275px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+}
+#logo {
+	padding-left: 510px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 23px;
+}
+#titulo {
+	padding-top: 50px;
+	padding-left: 100px;
+}
+nav {
+	padding-left: 500px;
+	padding-bottom: 20px;
+	height: 70px;
+	width: 1275px;
+}
+#col1 {
+	padding-left: 100px;
+	padding-top: 15px;
+	width: 300px;
+	float: left;
+}
+h2 {
+	color: rgb(255,253,240);
+	background-color: rgb(35,159,174);
+	font-size: 14px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+#telefono {
+	height: 100px;
+	width: 172px;
+	margin-top: 20px;
+	margin-left: 97px;
+	float: left;
+}
+#mail {
+	height: 100px;
+	width: 150px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+#cuentas {
+	margin-top: 20px;
+	margin-left: 120px;
+	height: 40px;
+	width: 172px;
+}
+#titu {
+	padding-left: 75px;
+}
+h1 {
+	font-family: ' Sans Condensed abiertas ', sans-serif;
+	font-size: 11px;
+	line-height: 140%;
+	color: rgba(51,51,51,1);
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+}
+footer {
+	height: 46px;
+	background-color: rgb(35,159,174);
+	float: left;
+	width: 1275px;
+	text-align: center;
+	margin-top: 30px;
+}
+#separa {
+	height: 44px;
+	background-image: url(fsep3.png);
+	background-repeat: repeat;
+	padding-left: 500px;
+}
+#boton, #boton2, #boton3 { float: left; width: 70px; height: 70px; }
+
+#boton {
+	background-image: url(btn.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton:hover {
+	background-image: url(btnsobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#boton2 {
+	background-image: url(btn2.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton2:hover {
+	background-image: url(btn2sobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#boton3 {
+	background-image: url(btn3.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+#boton3:hover {
+	background-image: url(btn3sobre.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+p {
+	font-family: ' Sans Condensed abiertas ', sans-serif;
+	font-size: 12px;
+	color: rgba(51,51,51,1);
+	line-height: 140%;
+	text-align: justify;
+	padding-top: 30px;
+	margin-right: 32px;
+	text-decoration: underline;
+}
+#col4 {
+	float: right;
+	padding-right: 100px;
+	padding-top: 15px;
+}
+h3 {
+	font-size: 18px;
+	color: rgb(51,51,51);
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, sans-serif;
+}
